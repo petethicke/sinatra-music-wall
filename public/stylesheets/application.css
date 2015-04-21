@@ -1,16 +1,22 @@
 body {
   font-size: 1.2em;
   font-family: 'Verdana', sans-serif;
-  background: #e6e6e6;
+  background-image: url('Tdkc60cassette.jpg');
+}
+
+h1 {
+  color: #4d4d4d;
+  padding: .5emx;
+  border: 4px solid black;
 }
 
 a {
   text-decoration: none;
-  color: yellow;
+  color: #4d4d4d;
 }
 
 a:hover {
-  color: #FDE3A7;
+  color: #47a3ff;
 }
 
 .wrapper {
@@ -19,7 +25,7 @@ a:hover {
   width: 60%;
   height: auto;
   text-align: center;
-  background: -moz-linear-gradient(top,  #1e5799 0%, #207cca 23%, #2989d8 46%, #7db9e8 94%); /* FF3.6+ */
-  background: -webkit-linear-gradient(top,  #1e5799 0%,#207cca 23%,#2989d8 46%,#7db9e8 94%); /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 15%, rgba(237,237,237,1) 53%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 15%,rgba(237,237,237,1) 53%);
 }
 
